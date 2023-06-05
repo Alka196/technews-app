@@ -15,7 +15,7 @@ const reducer = (state, action) => {
         case "REMOVE_POST":
             return {
                 ...state,
-                hits: state.hits.filter((curElem) => curElem.objectID != action.payload
+                hits: state.hits.filter((curElem) => curElem.objectID !== action.payload
 
                 )
             }

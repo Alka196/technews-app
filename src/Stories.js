@@ -25,7 +25,7 @@ function Stories() {
                                 By <span> {author} </span> | <span> {num_comments} </span>
                             </p>
                             <div className='card-button'>
-                                <a href={url} target="_blank">
+                                <a href={url} target="_blank" rel="noreferrer">
                                     Read More
                                 </a>
                                 <a href='#' onClick={() => removePost(objectID)}>Remove</a>
