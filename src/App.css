@@ -13,12 +13,15 @@ html {
 
 body {
   background-color: rgb(212, 162, 87);
+  background-image: url("https://img.freepik.com/free-photo/top-view-old-french-newspaper-pieces_23-2149318857.jpg?w=2000");
 }
 
 h1 {
-  font-size: 3.2rem;
+  font-size: 7rem;
   margin: 2rem 0;
-  text-align: center;
+  text-align: center;  
+  color: #021e17;
+  text-shadow: #b71313; 
   
 }
 
@@ -52,10 +55,10 @@ span {
   min-width: 20rem;
   width: 40vw;
   padding: 4rem;
-  background-color: #ffffff;
+  background-color: #d27676;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 0.5rem;
-  color: #15133c;
+  color: #040113;
 }
 
 .card-button {
@@ -101,7 +104,7 @@ button {
   padding: 0.8rem 2.2rem;
   border: none;
   font-size: 1.6rem;
-  background-color: #15133c;
+  background-color: #0c0952;
   color: #ffffff;
   margin: 3rem;
   cursor: pointer;
